@@ -8,7 +8,6 @@ Welcome to my Portfolio Project! This project showcases my skills and projects i
 
 - HTML/CSS
 - JavaScript
-- [Any other technologies/frameworks you used, e.g., React, Bootstrap]
 
 ## Setup and Launch
 

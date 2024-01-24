@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -47,27 +48,162 @@
           <h2>Hello there, I'm Mati!</h2>
           <p>A Computer Science enthusiast with an interest in artificial intelligence. Join me on a journey through innovation and discovery.</p>
           <a href="#work" class="btn-explore">Explore My Work</a>
+          <a href= "assets/resume.pdf"  class="btn-download" download="Mati_Desissa_Resume">Download Resume</a>
       </div>
 
-  </section>
+    </section>
   
 
-    <section id="expertise">
-      <h1>Expertise</h1>
+    <section id="expertise" class="container my-5">
+      <h2 class="text-center mb-4">Expertise</h2>
       
+      <h3>Web Development</h3>
+      <div class="progress mb-3">
+        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">HTML/CSS/JavaScript</div>
+      </div>
+      
+      <h3>Programming Languages</h3>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Java, Python, C, Ruby</div>
+      </div>
+      
+      <h3>Frameworks and Libraries</h3>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-info" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Ruby on Rails, React, NumPy, PyTorch</div>
+      </div>
+      
+      <h3>Engineering Tools</h3>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">SolidWorks, MATLAB</div>
+      </div>
+      
+      <h3>Troubleshooting</h3>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Hardware & Software Repair/Troubleshooting</div>
+      </div>
     </section>
   
     <section id="work">
-      <!-- Content for the work section -->
+      <div class="parent card2">
+        <div class="card ">
+            <div class="content-box">
+                <h1 class="card-title">Calories Count</h1>
+                <p class="card-content">
+                  Crafted with Ruby on Rails, 'Calories Count' is a web platform that offers users a seamless experience in tracking their caloric intake and maintaining diet balance. Featuring a robust user profile system, the website employs migrations to handle SQL database interactions efficiently, ensuring accurate and up-to-date nutritional tracking.
+                </p>
+                <span class="see-more">See More</span>  
+            </div>
+            <div class="date-box">
+                <span class="month">OCT</span>
+                <span class="date">17</span>
+            </div>
+        </div>
+      </div>
+
+      <div class="parent card2">
+        <div class="card ">
+            <div class="content-box">
+
+              <h1 class="card-title">Scientific Calculator</h1>
+              <p class="card-content">
+                This full-featured scientific calculator, developed using JavaScript, HTML, and CSS, provides precision and versatility for complex mathematical operations. It showcases an intuitive interface that makes it accessible for both educational purposes and advanced computational tasks.
+              </p>
+              <span class="see-more">See More</span>
+              
+
+            </div>
+            <div class="date-box">
+                <span class="month">MAY</span>
+                <span class="date">05</span>
+            </div>
+        </div>
+      </div>
+
+      <div class="parent card3">
+        <div class="card ">
+            <div class="content-box">
+              <h1 class="card-title">UI WebScrape</h1>
+              <p class="card-content">
+                Designed for the Engineering Technology Service (ETS) of my college, 'UI WebScrape' is a specialized tool crafted with Python and Tkinter UI. It expertly extracts and consolidates data from designated websites based on date or username, streamlining the process with features to display and export the information as a CSV file.
+              </p>
+              <span class="see-more">See More</span>              
+            </div>
+            <div class="date-box">
+                <span class="month">JAN</span>
+                <span class="date">01</span>
+            </div>
+        </div>
+      </div>
+
+      <div class="parent card4">
+        <div class="card ">
+            <div class="content-box">
+              <h1 class="card-title">Autonomous Car Security</h1>
+              <p class="card-content">
+                This pioneering project represents a leap in vehicle security systems, combining face recognition and Arduino technology. The self-driving car activates through recognized identities and alerts the owner upon detecting an unknown presence, adding a layer of intelligent security to modern transport.
+              </p>
+              <span class="see-more">See More</span>              
+            </div>
+            <div class="date-box">
+                <span class="month">NOV</span>
+                <span class="date">20</span>
+            </div>
+        </div>
+      </div>
     </section>
   
-    <section id="experience">
-      <!-- Content for the experience section -->
-    </section>
+    <section id="experience" class="experience-section">
+      <div class="centered-content">
+        <h2 class="section-title">Professional Experience</h2>
+        <!-- Experience Item 1 -->
+        <div class="experience-card">
+          <h3 class="job-title">Computer Science Expert - AI Training, Scale AI</h3>
+          <p class="job-duration">May 2023 – Present</p>
+          <ul class="job-description">
+            <li>Conducted projects for AI model training, optimizing performance.</li>
+            <li>Developed and refined AI training data sets.</li>
+            <li>Led AI projects, improving model efficiency and capabilities.</li>
+          </ul>
+        </div>
+        <!-- Experience Item 2 -->
+        <div class="experience-card">
+          <h3 class="job-title">Engineering Technology Service, Ohio State University</h3>
+          <p class="job-duration">August 2022 - Present</p>
+          <ul class="job-description">
+            <li>Provided technology support and equipment loan services.</li>
+            <li>Expert in troubleshooting computer/software issues and AV systems.</li>
+          </ul>
+        </div>
+      </div>
+    </section>    
 
-    <section id="contact">
-      <!-- Content for the contact section -->
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="contact-card">
+        <div class="contact-details">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:desissa.1@buckeyemail.osu.edu">Email Me</a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+13808676080">380-867-6080</a>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/mati-desissa-902661208/" target="_blank">LinkedIn Profile</a>
+          </div>
+        </div>
+      </div>
     </section>
-
+    
+    
+    <footer class="site-footer">
+      <p>© 2024 Mati Desissa. All Rights Reserved.</p>
+      <p>Follow me on <a href="https://www.linkedin.com/in/mati-desissa-902661208/" target="_blank">LinkedIn</a></p>
+    </footer>
+    
+  
   </body>
+  <script src="index.js"></script>
 </html>
